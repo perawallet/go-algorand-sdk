@@ -4,6 +4,11 @@
 [![Go Report Card](https://goreportcard.com/badge/github.com/algorand/go-algorand-sdk)](https://goreportcard.com/report/github.com/algorand/go-algorand-sdk)
 [![GoDoc](https://godoc.org/github.com/algorand/go-algorand-sdk?status.svg)](https://godoc.org/github.com/algorand/go-algorand-sdk)
 
+
+The Pera Fork provides:
+
+- [NACL Secretbox](golang.org/x/crypto/nacl/secretbox) encrypt/decrypt functions for data encryption. In near future, it will be splitted into another package that contains go-algorand-sdk's packages.
+
 The Algorand golang SDK provides:
 
 - HTTP clients for the algod (agreement) and kmd (key management) APIs
