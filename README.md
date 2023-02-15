@@ -7,6 +7,13 @@
 
 The Pera Fork provides:
 
+- Supporting Secure Backup - [ARC-35](https://github.com/algorandfoundation/ARCs/pull/156),
+
+  - Generating 16-byte key randomly.
+  - Generating 32-byte key using randomly generated private key through HMAC:SHA256
+  - Decoding 16-byte key into 12-word mnemonic passphrases
+  - Decoding 12-word mnemonic passphrases into 16-byte key
+
 - [NACL Secretbox](golang.org/x/crypto/nacl/secretbox) encrypt/decrypt functions for data encryption. In near future, it will be splitted into another package that contains go-algorand-sdk's packages.
 
 The Algorand golang SDK provides:
